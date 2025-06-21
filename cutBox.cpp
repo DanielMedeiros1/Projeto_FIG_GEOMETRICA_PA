@@ -12,3 +12,7 @@ void CutBox::draw(Sculptor &t) {
             for (int k = z0; k <= z1; k++)
                 t.cutVoxel(i, j, k);
 }
+
+CutBox::~CutBox() {
+   
+}

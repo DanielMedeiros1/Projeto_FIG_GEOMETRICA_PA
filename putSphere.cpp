@@ -28,3 +28,7 @@ void PutSphere::draw(Sculptor &t) {
         }
     }
 }
+
+PutSphere::~PutSphere() {
+
+}

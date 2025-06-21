@@ -24,3 +24,7 @@ void CutEllipsoid::draw(Sculptor &t) {
         }
     }
 }
+
+CutEllipsoid::~CutEllipsoid() {
+  
+}

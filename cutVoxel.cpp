@@ -7,3 +7,7 @@ CutVoxel::CutVoxel(int x, int y, int z) {
 void CutVoxel::draw(Sculptor &t) {
     t.cutVoxel(x, y, z);
 }
+
+CutVoxel::~CutVoxel() {
+   
+}

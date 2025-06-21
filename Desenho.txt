@@ -1,0 +1,22 @@
+dim 65 30 30
+
+# Cubo verde no canto esquerdo (x: 0-15)
+putBox 0 15 5 20 5 20 0.0 1.0 0.0 1.0
+
+# Esfera azul no meio (centro em x=30, raio=8 → ocupa x=22 a 38)
+putSphere 30 15 15 8 0.0 0.0 1.0 1.0
+cutVoxel 38 15 15
+cutVoxel 22 15 15
+cutVoxel 30 23 15
+cutVoxel 30 7 15
+cutVoxel 30 15 23
+cutVoxel 30 15 7
+
+# Elipsoide vermelha no canto direito (centro x=50, rx=10 → ocupa x=40 a 60)
+putEllipsoid 50 15 15 10 8 6 1.0 0.0 0.0 1.0
+cutVoxel 60 15 15
+cutVoxel 40 15 15
+cutVoxel 50 23 15
+cutVoxel 50 7 15
+cutVoxel 50 15 21
+cutVoxel 50 15 9

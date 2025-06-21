@@ -27,3 +27,8 @@ void PutEllipsoid::draw(Sculptor &t) {
     }
 }
 
+PutEllipsoid::~PutEllipsoid() {
+   
+}
+
+
